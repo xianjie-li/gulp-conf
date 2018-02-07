@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass.scss"],"names":[],"mappings":"AAEA,KACE,QAAA,MACA,WAAA,2EAEA,MAAA","file":"sass.css","sourcesContent":["$color: red;\r\n\r\n.div {\r\n  padding: 100px;\r\n  background: url(\"images/6f51b1b43bc42e2d9a5bd736391285c88886caeb115c5-x7eoEH_fw658.jpg\");\r\n\r\n  width: 100px;\r\n}\r\n\r\n\r\n"]}

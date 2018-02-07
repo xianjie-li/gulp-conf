@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<link rel="stylesheet" href="./style/css/sass.css">
+<body>
+<div class="div">dsadsad</div>
+<div class="slice"></div>
+<img src="./images/0fe30fc279ab69fdc466cf5c41b699f76d6cd9625c1e7-10AukD_fw658.jpg" alt="">
+<div class="test"></div>
+<script src="./lib/jquery-1.9.1.min.js"></script>
+<script src="./script/js/es6.js"></script>
+<script>
+  $.ajax({
+    url: '/api/housing_list',
+    type: 'post',
+    datatype: "json",
+    success: function(data) {
+
+    },
+    complete:function(){
+
+    }
+  });
+</script>
+</body>
+</html>
