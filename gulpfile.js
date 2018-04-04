@@ -40,7 +40,7 @@ const runSequence  = require('gulp-sequence').use(gulp);
 //清空dist
 const clean        = require('gulp-clean');
 
-const assetRev     = require('gulp-asset-rev');
+// const assetRev     = require('gulp-asset-rev');
 
 //项目目录
 const dirs = {
@@ -215,7 +215,7 @@ gulp.task('moveimg', ()=> {
 //打包5 html
 gulp.task('movehtml', ()=> {
     return gulp.src('./src/*.html')
-    .pipe(assetRev())
+    // .pipe(assetRev())
     .pipe(replace('./style/css','./css'))
     .pipe(replace('style/css','./css'))
     .pipe(replace('./script/js','./js'))
