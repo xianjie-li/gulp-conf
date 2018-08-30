@@ -2,6 +2,7 @@
   "name": "browserSync",
   "version": "1.0.0",
   "description": "",
+  "author": "ice https://github.com/qq1073830130",
   "main": "index.js",
   "scripts": {
     "create": "gulp create",
